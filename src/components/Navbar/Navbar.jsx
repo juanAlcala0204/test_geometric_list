@@ -1,4 +1,6 @@
-
+/**
+ * Build Component Navbar
+ */
 export default function Navbar () {
     return (
         <nav className="navbar navbar-dark bg-dark">

@@ -1,22 +1,37 @@
 
+/** Import Global Dependencies */
 import { useContext, useState } from 'react'
-import ModalContext from '../../context/ModalContext';
+
+/** Import Components */
 import ListGeometricFigures from '../GeometricFigures/ListGeometricFigures'
 import ModalRegisterFigure from '../GeometricFigures/ModalRegisterFigure';
 import Navbar from '../Navbar/Navbar'
-import '../../assets/css/Home.css'
-import GeometricFigureContext from '../../context/GeometricFigureContext';
 
+/** Import Css of this component */
+import '../../assets/css/Home.css'
+
+/** Import Global Context */
+import GeometricFigureContext from '../../context/GeometricFigureContext';
+import ModalContext from '../../context/ModalContext';
+
+/**
+ * Build Component Home
+ */
 export default function Home() {
 
     const { openModal } = useContext(ModalContext);
     const [searchFigure, setSearchFigure] = useState("");
     const { geometricFigures } = useContext(GeometricFigureContext);
 
+    /**
+     * Function that have the action of set the name that the user will search in the list
+     * @param {*} event Argument that have the event of the input 
+     */
     const handleChange = event => {
         setSearchFigure(event.target.value);
     }
 
+    // Make List Geometric Figures
     const results = !searchFigure
         ? geometricFigures
         : geometricFigures.filter(item => (

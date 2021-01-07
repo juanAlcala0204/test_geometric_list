@@ -1,9 +1,16 @@
+/**Import General Dependencies */
 import { createContext } from "react";
 
+/** Import of the Custom Hook */
 import UseModal from '../hooks/useModal'
 
+// Create Context Modal
 const ModalContext = createContext();
 
+/**
+ * Build Provider of the Modal Context
+ * @param {*} children Argument that have the components into of the this context 
+ */
 const ModalProvider = ({children}) => {
 
     const {stateModal, openModal, closeModal } = UseModal();
@@ -15,5 +22,6 @@ const ModalProvider = ({children}) => {
     );
 }
 
+/** Exports */
 export { ModalProvider }
 export default ModalContext;

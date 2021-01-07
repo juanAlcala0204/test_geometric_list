@@ -1,11 +1,16 @@
-
+/** Import Global Dependencies */
 import { useContext, useEffect } from 'react';
 import { Modal, ModalBody, ModalHeader } from 'reactstrap'
-import ModalContext from '../../context/ModalContext';
 import { useForm } from 'react-hook-form'
+
+/** Import Global Context */
+import ModalContext from '../../context/ModalContext';
 import GeometricFigureContext from '../../context/GeometricFigureContext';
 
-export default function ModalRegisterFigure() {
+/**
+ * Buid the component Modal Edit Figure
+ */
+export default function ModalEditFigure() {
     const { stateModal, closeModal } = useContext(ModalContext);
     const { updateGeometricFigure, geometricFigureSelected } = useContext(GeometricFigureContext);
     const { register, handleSubmit, setValue, reset } = useForm({
