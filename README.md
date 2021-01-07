@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### TODO List
+
+Próximas funciones que se esperaban implementar como plus:
+
+    - Lógica para usar tags por item creado ( Como metodo de clasificación )
+    - Guardar Listado por usuario haciendo uso del LocalStorage si el usuario desea guardar su lista.
+    - Realizar Páginación para el Listado de Figuras
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,3 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+
+
