@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/juanAlcala0204/testgeometriclist/static/css/main.999b7a89.chunk.css",
+    "main.js": "/juanAlcala0204/testgeometriclist/static/js/main.041c3bdd.chunk.js",
+    "main.js.map": "/juanAlcala0204/testgeometriclist/static/js/main.041c3bdd.chunk.js.map",
+    "runtime-main.js": "/juanAlcala0204/testgeometriclist/static/js/runtime-main.f39267a5.js",
+    "runtime-main.js.map": "/juanAlcala0204/testgeometriclist/static/js/runtime-main.f39267a5.js.map",
+    "static/js/2.4855f9e7.chunk.js": "/juanAlcala0204/testgeometriclist/static/js/2.4855f9e7.chunk.js",
+    "static/js/2.4855f9e7.chunk.js.map": "/juanAlcala0204/testgeometriclist/static/js/2.4855f9e7.chunk.js.map",
+    "index.html": "/juanAlcala0204/testgeometriclist/index.html",
+    "static/css/main.999b7a89.chunk.css.map": "/juanAlcala0204/testgeometriclist/static/css/main.999b7a89.chunk.css.map",
+    "static/js/2.4855f9e7.chunk.js.LICENSE.txt": "/juanAlcala0204/testgeometriclist/static/js/2.4855f9e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f39267a5.js",
+    "static/js/2.4855f9e7.chunk.js",
+    "static/css/main.999b7a89.chunk.css",
+    "static/js/main.041c3bdd.chunk.js"
+  ]
+}
